@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin2" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3bd62a53-5975-4944-a1a5-2782deb41d4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythoneers.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythoneers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythoneers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythoneers/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythoneers/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythoneers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythoneers/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +71,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Django/questionnaire_django" />
@@ -93,34 +113,52 @@
       <option name="presentableId" value="Default" />
       <updated>1600830455521</updated>
       <workItem from="1600830456573" duration="168000" />
-      <workItem from="1603035524331" duration="6636000" />
+      <workItem from="1603035524331" duration="11856000" />
+      <workItem from="1603052012034" duration="579000" />
+      <workItem from="1603052660940" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="875" y="395" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603047948762">
+      <screen x="0" y="28" width="2560" height="1412" />
+    </state>
+    <state x="875" y="395" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.2560.1412@0.28.2560.1412" timestamp="1603047948762" />
     <state x="1063" y="492" width="424" height="485" key="FileChooserDialogImpl" timestamp="1603042994656">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
     <state x="1063" y="492" width="424" height="485" key="FileChooserDialogImpl/0.28.2560.1412@0.28.2560.1412" timestamp="1603042994656" />
-    <state width="2506" height="369" key="GridCell.Tab.0.bottom" timestamp="1603044582109">
+    <state width="2506" height="395" key="GridCell.Tab.0.bottom" timestamp="1603052590955">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="369" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1603044582109" />
-    <state width="2506" height="369" key="GridCell.Tab.0.center" timestamp="1603044582108">
+    <state width="2506" height="395" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1603052590955" />
+    <state width="2506" height="395" key="GridCell.Tab.0.center" timestamp="1603052590955">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="369" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1603044582108" />
-    <state width="2506" height="369" key="GridCell.Tab.0.left" timestamp="1603044582107">
+    <state width="2506" height="395" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1603052590955" />
+    <state width="2506" height="395" key="GridCell.Tab.0.left" timestamp="1603052590955">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="369" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1603044582107" />
-    <state width="2506" height="369" key="GridCell.Tab.0.right" timestamp="1603044582108">
+    <state width="2506" height="395" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1603052590955" />
+    <state width="2506" height="395" key="GridCell.Tab.0.right" timestamp="1603052590955">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="369" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1603044582108" />
+    <state width="2506" height="395" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1603052590955" />
     <state x="761" y="369" width="1037" height="731" key="SettingsEditor" timestamp="1603043393000">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>

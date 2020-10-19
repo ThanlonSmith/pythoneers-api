@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import NoticeApi
+from .api.basic import NoticeApi
 
 urlpatterns = [
-    path('notice/', NoticeApi.as_view()),
+    path('notice/list/', NoticeApi.as_view()),
 ]
