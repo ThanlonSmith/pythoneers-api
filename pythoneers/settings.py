@@ -54,6 +54,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
     'http://localhost:8080',
+    'http://localhost:63343'
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许白名单中的host可以跨域携带cookie
 
@@ -134,5 +135,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIR = [
     os.path.join(BASE_DIR, 'static')
 ]
-MEDIA_DIR = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_DIR = '/media/'
+MEDIA_ROOT = BASE_DIR  # banner图片上传路径是media/banner/,要以BASE_DIR为准上传到media的banner下
+MEDIA_ROOT2 = os.path.join(BASE_DIR, 'media')

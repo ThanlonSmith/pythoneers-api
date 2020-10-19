@@ -9,3 +9,14 @@ class NoticeSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Notice
         fields = '__all__'
+
+
+class BannerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Banner
+        fields = (
+            'id',
+            'image',
+            'resource',
+            'title'
+        )
