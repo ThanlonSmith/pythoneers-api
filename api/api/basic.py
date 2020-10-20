@@ -31,3 +31,17 @@ class BannerApi(ListAPIView):
             'status': 0,
             'data': serializer.data
         })
+
+
+# book api
+class BookApi(ListAPIView):
+    queryset = models.Book.objects.all()
+    serializer_class = basic.BookSerializer
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        serializer = self.get_serializer(queryset, many=True)
+        return response.Response({
+            'status': 0,
+            'data': serializer.data
+        })

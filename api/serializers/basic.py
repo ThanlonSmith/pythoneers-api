@@ -20,3 +20,19 @@ class BannerSerializer(serializers.ModelSerializer):
             'resource',
             'title'
         )
+
+
+class BookSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Book
+        fields = (
+            'title',
+            'image',
+            'order_address',
+            'coupon_address',
+            'is_coupon',
+            'current_price',
+            'current_face_price',
+            'monthly_sale',
+            'book_store'
+        )
