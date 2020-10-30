@@ -1,3 +1,5 @@
+from rest_framework.response import Response
+from rest_framework import pagination
 # from django.shortcuts import render
 # from django.views import View
 from rest_framework import views, response
@@ -35,6 +37,10 @@ class BannerApi(ListAPIView):
 
 # book api
 class BookApi(ListAPIView):
+    """
+    Python入门推荐用书API
+    """
+    """
     queryset = models.Book.objects.all()
     serializer_class = basic.BookSerializer
 
@@ -44,4 +50,30 @@ class BookApi(ListAPIView):
         return response.Response({
             'status': 0,
             'data': serializer.data
+        })
+    """
+    queryset = models.Book.objects.all()
+    serializer_class = basic.BookSerializer
+    pagination_class = pagination.LimitOffsetPagination
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+        serializer = self.get_serializer(queryset, many=True)
+        return response.Response({
+            'status': 0,
+            'data': serializer.data
+        })
+
+    def get_paginated_response(self, data):
+        """
+        自定义分页显示的数据
+        """
+        return Response({
+            'status': 0,
+            'data': data,
+            'total': self.paginator.count
         })

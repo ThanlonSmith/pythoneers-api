@@ -138,3 +138,6 @@ STATICFILES_DIR = [
 # MEDIA_DIR = '/media/'
 MEDIA_ROOT = BASE_DIR  # banner图片上传路径是media/banner/,要以BASE_DIR为准上传到media的banner下
 MEDIA_ROOT2 = os.path.join(BASE_DIR, 'media')
+REST_FRAMEWORK = {
+
+}

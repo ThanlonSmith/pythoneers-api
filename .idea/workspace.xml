@@ -25,12 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bd62a53-5975-4944-a1a5-2782deb41d4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d6b9f5b-6d2c-4eb4-9156-94fda469a281.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8d6b9f5b-6d2c-4eb4-9156-94fda469a281.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythoneers/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythoneers/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +118,11 @@
       <workItem from="1603106232368" duration="7757000" />
       <workItem from="1603115491058" duration="3079000" />
       <workItem from="1603130053930" duration="30000" />
+      <workItem from="1603162830151" duration="4742000" />
+      <workItem from="1603170833660" duration="5000" />
+      <workItem from="1603526305608" duration="313000" />
+      <workItem from="1604005364171" duration="8470000" />
+      <workItem from="1604036499308" duration="493000" />
     </task>
     <servers />
   </component>
@@ -144,26 +146,30 @@
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
     <state x="875" y="395" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.2560.1412@0.28.2560.1412" timestamp="1603047948762" />
-    <state x="1063" y="492" width="424" height="485" key="FileChooserDialogImpl" timestamp="1603081605137">
+    <state x="1063" y="492" width="424" height="485" key="FileChooserDialogImpl" timestamp="1604005579569">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state x="1063" y="492" width="424" height="485" key="FileChooserDialogImpl/0.28.2560.1412@0.28.2560.1412" timestamp="1603081605137" />
-    <state width="2506" height="686" key="GridCell.Tab.0.bottom" timestamp="1603130083571">
+    <state x="1063" y="492" width="424" height="485" key="FileChooserDialogImpl/0.28.2560.1412@0.28.2560.1412" timestamp="1604005579569" />
+    <state width="2506" height="244" key="GridCell.Tab.0.bottom" timestamp="1604036429574">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="686" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1603130083571" />
-    <state width="2506" height="686" key="GridCell.Tab.0.center" timestamp="1603130083571">
+    <state width="1866" height="203" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1603526617781" />
+    <state width="2506" height="244" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1604036429574" />
+    <state width="2506" height="244" key="GridCell.Tab.0.center" timestamp="1604036429572">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="686" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1603130083571" />
-    <state width="2506" height="686" key="GridCell.Tab.0.left" timestamp="1603130083570">
+    <state width="1866" height="203" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1603526617781" />
+    <state width="2506" height="244" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1604036429572" />
+    <state width="2506" height="244" key="GridCell.Tab.0.left" timestamp="1604036429571">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="686" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1603130083570" />
-    <state width="2506" height="686" key="GridCell.Tab.0.right" timestamp="1603130083571">
+    <state width="1866" height="203" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1603526617781" />
+    <state width="2506" height="244" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1604036429571" />
+    <state width="2506" height="244" key="GridCell.Tab.0.right" timestamp="1604036429573">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="2506" height="686" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1603130083571" />
+    <state width="1866" height="203" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1603526617781" />
+    <state width="2506" height="244" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1604036429573" />
     <state width="2506" height="480" key="GridCell.Tab.1.bottom" timestamp="1603095570460">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
@@ -180,9 +186,9 @@
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
     <state width="2506" height="480" key="GridCell.Tab.1.right/0.28.2560.1412@0.28.2560.1412" timestamp="1603095570460" />
-    <state x="761" y="369" width="1037" height="731" key="SettingsEditor" timestamp="1603043393000">
+    <state x="761" y="369" width="1037" height="731" key="SettingsEditor" timestamp="1604005587905">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state x="761" y="369" width="1037" height="731" key="SettingsEditor/0.28.2560.1412@0.28.2560.1412" timestamp="1603043393000" />
+    <state x="761" y="369" width="1037" height="731" key="SettingsEditor/0.28.2560.1412@0.28.2560.1412" timestamp="1604005587905" />
   </component>
 </project>
